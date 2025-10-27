@@ -1,0 +1,44 @@
+# Entorno virtual
+.venv/
+venv/
+ENV/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Archivos de pruebas y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Archivos de IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de registro y datos
+*.log
+*.sqlite3
+
+# Archivos específicos del proyecto
+# Mantener los reportes de pruebas si son necesarios
+# reports/
+
+# Archivos de Selenium
+geckodriver.log
+chromedriver.log
